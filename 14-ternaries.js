@@ -1,5 +1,5 @@
 //1                //2                //3
-( condition ) ? run this code : run this code instead
+//( condition ) ? run this code : run this code instead
 
 //1. This code is the condition that your testing.
 //2. After the condition we add a ? and then the code we want to execute if it is true.
