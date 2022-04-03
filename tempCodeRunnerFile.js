@@ -1,16 +1,22 @@
 
-let starter = "grass"
+function sovle(x, y, op){
+    let result
+    switch(op){
+        case 1:
+            result = x + y
+            break
+        case 2:
+            result = x - y
+            break
+        case 3:
+            result = x * y
+            break
+        case 4:
+            result = x / y
+            break
+    }
+    return result
+}
 
-switch(starter) {
-    case "fire":
-    console.log("Charmander I choose you!")
-    break;
-    case "water":
-    console.log("Squirtle I choose you!")
-    break;
-    case "grass":
-        console.log("Bulbasar I choose you!")
-        break;
-        default:
-        console.log("Here take this Pikachu.")
-};
+let answer = solve(2, 4, 3)
+console.log(answer)
