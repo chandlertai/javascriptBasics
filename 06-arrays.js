@@ -107,6 +107,27 @@ console.log(nums);// OUTPUT: [0, 1, 2, 3, 4, 5]
 
 // .pop() - similar to the shift() method it removes the item in an array and returns the removwed item.
 
+
+
+// .splice() - changes the content of our array. It can remo e or replace existing items and or add new items in its place
+
+
 let sailorScouts = ["Moon", "Mars", "Saturn", "Jupitor"];
 sailorScouts.pop();
 console.log(sailorScouts);//OUTPUT: is our array without sailor Jupitor
+
+let months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb");
+console.log(months);
+
+months.splice(4, 1, "May");
+console.log(months);
+
+months.splice(5, 0, "June", "July", "Aug");
+console.log(months);
+
+/*
+Mthods That you should look up:
+ - .join(),
+ - 
+*/
